@@ -29,12 +29,10 @@ const TextToSpeech = ({ text }) => {
 
   return (
     <div>
-      <button onClick={speakText} disabled={speaking}>
-        Speak
+      <button onClick={speakText} disabled={speaking} className="pt" >
+       
       </button>
-      <button onClick={stopSpeaking} disabled={!speaking}>
-        Stop
-      </button>
+
     </div>
   );
 };
