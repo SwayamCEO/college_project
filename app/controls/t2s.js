@@ -1,12 +1,18 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const TextToSpeech = ({ text }) => {
+  const [synthesis, setSynthesis] = useState(null);
   const [speaking, setSpeaking] = useState(false);
-  const synthesis = window.speechSynthesis;
+
+  useEffect(() => {
+    if ('speechSynthesis' in window) {
+      setSynthesis(window.speechSynthesis);
+    }
+  }, []);
 
   const speakText = () => {
-    if (!speaking && synthesis !== undefined) {
+    if (!speaking && synthesis !== null) {
       const utterance = new SpeechSynthesisUtterance(text);
       synthesis.speak(utterance);
       setSpeaking(true);
@@ -15,7 +21,7 @@ const TextToSpeech = ({ text }) => {
   };
 
   const stopSpeaking = () => {
-    if (speaking && synthesis !== undefined) {
+    if (speaking && synthesis !== null) {
       synthesis.cancel();
       setSpeaking(false);
     }
@@ -23,7 +29,11 @@ const TextToSpeech = ({ text }) => {
 
   return (
     <div>
-      <button onClick={speakText} className="pt" disabled={speaking}>
+      <button onClick={speakText} disabled={speaking}>
+        Speak
+      </button>
+      <button onClick={stopSpeaking} disabled={!speaking}>
+        Stop
       </button>
     </div>
   );
