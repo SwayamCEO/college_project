@@ -34,21 +34,21 @@ body, html {
      
  }
  .ti{
-  
+/*   background-color: black; */
   position: absolute;
-  top: 15px;
-  width: 10%;
-  height: 10%;
+  top: 3vh;
+  width: 11vw;
+  height: 11vh;
   z-index: 1;
  }
  #home{
-  left: 830px;
+  left: 64vw;
  }
  #about{
-  left: 980px;
+  left: 77vw;
  }
  #contact{
-  left: 1130px;
+  left: 89vw;
  }
  .bi{
   
