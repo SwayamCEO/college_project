@@ -102,6 +102,8 @@ body, html {
  #ts1{
   top: 35vh;
   left: 62vw;
+  row-gap: 5vh;
+  column-gap:1vw ;
   /* background-color: black; */
  }
 #computervp{
