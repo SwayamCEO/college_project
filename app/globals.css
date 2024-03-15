@@ -72,16 +72,16 @@ body, html {
   top: 55vh;
   left: 76.5vw;
  }
- #trades{
+#trades{
   position: absolute;
-  top:36vh;
+  top:35vh;
   left: 35.5vw;
  }
  .trade{
   position:relative;
-  width: 40px;
-  height: 25px;
-  /* background-color: black; */
+  width: 30vw;
+  height:5vh;
+  /* background-color: rgb(23, 120, 230); */
  }
  #curriculumt{
   top: 15vh;
