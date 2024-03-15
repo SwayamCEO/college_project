@@ -89,13 +89,15 @@ body, html {
   /* background-color: black; */
  }
  .pt{
-  width: 100px;
-  height: 90px;
+  width: 9vw;
+  height: 15vh;
   /* background-color: black; */
  }
  #ts{
   top: 40vh;
   left: 62vw;
+  row-gap: 8vh;
+  column-gap:2vw ;
  }
  #ts1{
   top: 35vh;
