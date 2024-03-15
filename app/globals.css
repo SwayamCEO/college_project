@@ -53,10 +53,10 @@ body, html {
  .bi{
   
   position: absolute;
-  left: 900px;
-  /* background-color: black; */
-  width: 8%;
-  height: 11%;
+  left: 70vw;
+/*   background-color: black; */
+  width: 25vw;
+  height: 10vh;
   z-index: 1;
   
  }
