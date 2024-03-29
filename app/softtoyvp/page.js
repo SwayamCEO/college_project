@@ -14,58 +14,58 @@ export default function computer() {
       <Link href='/softtoy'><button id="pretraining"  className="bi"/></Link>  
       <div className='pc'>
       <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
+        src="./English/softtoy.mp4"
         startTime={0}
-        endTime={15}
+        endTime={507}
         id={"start"}
         cn={"playbutton"}
       />
       <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
+        src="./English/softtoy.mp4"
         startTime={0}
-        endTime={5}
+        endTime={28}
         id={"first"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={5}
-        endTime={10}
+        src="./English/softtoy.mp4"
+        startTime={28}
+        endTime={44}
         id={"second"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={10}
-        endTime={15}
+        src="./English/softtoy.mp4"
+        startTime={44}
+        endTime={116}
         id={"third"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={2}
-        endTime={8}
+        src="./English/softtoy.mp4"
+        startTime={116}
+        endTime={174}
         id={"fourth"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={8}
-        endTime={14}
+        src="./English/softtoy.mp4"
+        startTime={176}
+        endTime={220}
         id={"fifth"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={13}
-        endTime={15}
+        src="./English/softtoy.mp4"
+        startTime={225}
+        endTime={466}
         id={"sixth"}
         cn={"playbutton"}
       /> 
                   <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={3}
-        endTime={10}
+        src="./English/softtoy.mp4"
+        startTime={469}
+        endTime={507}
         id={"seventh"}
         cn={"playbutton"}
       /> 

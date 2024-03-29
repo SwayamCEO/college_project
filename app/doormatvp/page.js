@@ -14,44 +14,44 @@ export default function computer() {
       <Link href='/doormat'><button id="pretraining"  className="bi"/></Link>  
       <div className='pc'>
       <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
+        src="./English/doormat.mp4"
         startTime={0}
-        endTime={15}
+        endTime={594}
         id={"start"}
         cn={"playbutton"}
       />
       <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
+        src="./English/doormat.mp4"
         startTime={0}
-        endTime={5}
+        endTime={70}
         id={"first"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={5}
-        endTime={10}
+        src="./English/doormat.mp4"
+        startTime={70}
+        endTime={112}
         id={"second"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={10}
-        endTime={15}
+        src="./English/doormat.mp4"
+        startTime={110}
+        endTime={210}
         id={"third"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={2}
-        endTime={8}
+        src="./English/doormat.mp4"
+        startTime={210}
+        endTime={490}
         id={"fourth"}
         cn={"playbutton"}
       />
             <VideoPlayer
-        src="./videos/Joren_Falls_Izu_Jap.mp4"
-        startTime={8}
-        endTime={14}
+        src="./English/doormat.mp4"
+        startTime={490}
+        endTime={594}
         id={"fifth"}
         cn={"playbutton"}
       />
