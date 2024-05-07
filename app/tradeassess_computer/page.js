@@ -119,7 +119,7 @@ export default function Home() {
                    <Ttitle/>
                     <tbody>
                       
-                    <PrintingTableRow outcome="1.Computer Basics" crieteria="1.Identify the types of Computers like Desktop / Laptop, peripherals and accessories, explain, reproduce in writing or alternatively communicate about their role in simple words" outof={50} totalMarks={7} rowspan={8} marksCount={2} marks1Count={5} no={1} setSums={setSums}/>
+                    <PrintingTableRow outcome="1.Computer Basics" crieteria="1.Identify the types of Computers like Desktop / Laptop, peripherals and accessories, explain in simple words" outof={50} totalMarks={7} rowspan={8} marksCount={2} marks1Count={5} no={1} setSums={setSums}/>
                     <PrintingRow criteria="2.Understand hardware / software, Operating System and Applications" totalMark={7} marksCount={2} marks1Count={5} no={1} setSums={setSums}/>
                     <PrintingRow criteria="3.Switch on/off computers" totalMark={7} marksCount={2} marks1Count={5} no={1} setSums={setSums} />
                     <PrintingRow criteria="4.Login with credentials and identify alert sounds (may or may not present)" totalMark={6} marksCount={2} marks1Count={4} no={1} setSums={setSums}/>
@@ -129,8 +129,8 @@ export default function Home() {
                     <PrintingRow criteria="8. Able to follow safety rules (Do’s and Don’ts) defined in operating the computers and its peripherals . " totalMark={5} marksCount={1} marks1Count={4} no={1} setSums={setSums}/>
                      <TotalRow outOf={50} totalMarks={50} ti={1} no={1} sums={sums} theory={15} practical={35}/>
                      <PrintingTableRow outcome="2.Keyboard Orientation and Typing or Input access" crieteria="1.Explain the different part of the Simple or Adapted Keyboards, Mouse / Switch / Onscreen Keyboard for typing" outof={50} totalMarks={13} rowspan={4} marksCount={4} marks1Count={9} no={2} setSums={setSums}/>
-                    <PrintingRow criteria="2.Switch on Screen readers, setup for their preferences and operate keys audio enabled or use Six key typing using Refreshable Braille Display (if required)" totalMark={13} marksCount={4} marks1Count={9} no={2} setSums={setSums}/>
-                    <PrintingRow criteria="3.Type simple words to phrases, punctuations with key mapping, typing combinations in Notepad application of Windows Operating System (which finger to use for which key for those who are able to type) or alternative keyboard or techniques(selection / scanning)" totalMark={13} marksCount={4} marks1Count={9} no={2} setSums={setSums}/>
+                    <PrintingRow criteria="2.Switch on Screen readers, setup for their preferences and operate keys audio enabled or use Six key typing using Braille Display (if required)" totalMark={13} marksCount={4} marks1Count={9} no={2} setSums={setSums}/>
+                    <PrintingRow criteria="3.Type simple words to phrases, punctuations with key mapping, typing combinations in Notepad application of Windows Operating System (which finger to use for which key for those who are able to type)" totalMark={13} marksCount={4} marks1Count={9} no={2} setSums={setSums}/>
                     <PrintingRow criteria="4.Use and operatethe Assistive and adaptive devices, if required for input access / output" totalMark={11} marksCount={3} marks1Count={8} no={2} setSums={setSums}/>
                     <TotalRow outOf={50} totalMarks={50} ti={2} sums={sums} theory={15} practical={35}/>
                     <PrintingTableRow outcome="3.Basic Operating System Features and Applications" outof={100} crieteria="1.Identify and operate Desktop Elements – Icons / Tool Bar/ System Tray" totalMarks={6} rowspan={23} marksCount={2} marks1Count={4}  no={3} setSums={setSums}/>
@@ -144,13 +144,13 @@ export default function Home() {
                     <PrintingRow criteria="9.View through different views (list, details) and navigate" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
                     <PrintingRow criteria="10.Arrange files by date, type and name" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
                     <PrintingRow criteria="11.Select and unselect / Create / Rename / Search / Delete Folders / Files" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
-                    <PrintingRow criteria="12.Understand the hierarchy of storage in different levels as folders and files" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
+                    <PrintingRow criteria="12.Understand the place of storage in different levels as folders and files" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
                     <PrintingRow criteria="13.Operate basic commands on folders / files (Search, Select, Copy, Cut, Paste, Insert, Undo, Properties to know size / type)" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
                     <PrintingRow criteria="14. Copy / Move to and from external drives" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
-                    <PrintingRow criteria="15.Impact of delete operation and Recycle bin, and restoration" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
+                    <PrintingRow criteria="15.To know delete operation and Recycle bin, and restoration" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
                     <PrintingRow criteria="16.Navigate through texts like character, word, line, paragraph, document, beginning, and end" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
                     <PrintingRow criteria="17.Do data entry in Notepad, change font, style / read / using deleting / backspace keys / inserting characters in front / mid / end of words / leave and delete blank lines / split and join words / lines" totalMark={4} marksCount={1} marks1Count={3} no={3} setSums={setSums} />
-                    <PrintingRow criteria="18.Do Find / Select / Copy / Cut / Delete / text / Word wrap / Undo actions" totalMark={3} marksCount={1} marks1Count={2} no={3} setSums={setSums} />
+                    <PrintingRow criteria="18.Do Find / Select / Copy / Cut / Delete / text / Word wrap / Undo / Redo actions" totalMark={3} marksCount={1} marks1Count={2} no={3} setSums={setSums} />
                     <PrintingRow criteria="19.Understand and execute using shortcut keys (if required)" totalMark={3} marksCount={1} marks1Count={2} no={3} setSums={setSums} />
                     <PrintingRow criteria="20.Save, retrieve and open the text data file to / from folders" totalMark={3} marksCount={1} marks1Count={2} no={3} setSums={setSums} />
                     <PrintingRow criteria="21.Print the typed text data content" totalMark={3} marksCount={1} marks1Count={2} no={3} setSums={setSums} />

@@ -136,7 +136,7 @@ export default function Home() {
                      <PrintingTableRow outcome="2.Paper bag making" crieteria="1.Identify and knows and uses of Paper bag  material" outof={100} totalMarks={10} rowspan={12} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
                     <PrintingRow criteria="2.Punctuality in work place" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
                     <PrintingRow criteria="3.Greet the supervisor and team members" totalMark={10} marksCount={3} marks1Count={7 } no={2} setSums={setSums}/>
-                    <PrintingRow criteria="4.Sign the register" totalMark={5} marksCount={2} marks1Count={3} no={2} setSums={setSums}/>
+                    <PrintingRow criteria="4.Sign the attendance register" totalMark={5} marksCount={2} marks1Count={3} no={2} setSums={setSums}/>
                     <PrintingRow criteria="5.start the work" totalMark={5} marksCount={2} marks1Count={3} no={2} setSums={setSums}/>
                     <PrintingRow criteria="6.handle carefully materials when it uses" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
                     <PrintingRow criteria="7.Reserves materials , equipments safety after use" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
@@ -166,7 +166,7 @@ export default function Home() {
                       <tr>
                         <td />
                         <td>Minimum pass % to qualify
-                          (aggregate)
+                          
                         </td>
                         <td colSpan={4} align="center"> <br /><br />60%<br /><br /><br /></td>
                       </tr>

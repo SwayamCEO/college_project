@@ -141,7 +141,7 @@ export default function Home() {
                     <PrintingRow criteria="19.complete the work" totalMark={5} marksCount={2} marks1Count={3} no={1} setSums={setSums}/> 
                      <TotalRow outOf={100} totalMarks={100} ti={1} no={1} sums={sums} theory={40} practical={60}/>
 
-                     <PrintingTableRow outcome="2. AMH/N0302 (Contribute to achieve product quality in  Lamination   activity)" crieteria="1.Identify and  names the   required materials  for lamination work" outof={100} totalMarks={10} rowspan={10} marksCount={3} marks1Count={7 } no={2} setSums={setSums}/>
+                     <PrintingTableRow outcome="2.(Contribute to achieve product quality in  Lamination   activity)" crieteria="1.Identify and  names the   required materials  for lamination work" outof={100} totalMarks={10} rowspan={10} marksCount={3} marks1Count={7 } no={2} setSums={setSums}/>
                     <PrintingRow criteria="2.know how to use the material" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
                     <PrintingRow criteria="3.Take necessary action if materials are not useful for  lamination work" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
                     <PrintingRow criteria="4.Identifies various colours" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
@@ -195,7 +195,7 @@ export default function Home() {
                       <tr>
                         <td />
                         <td>Minimum pass % to qualify
-                          (aggregate)
+                         
                         </td>
                         <td colSpan={4} align="center"> <br /><br />60%<br /><br /><br /></td>
                       </tr>

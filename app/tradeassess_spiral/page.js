@@ -131,7 +131,7 @@ export default function Home() {
                     <PrintingRow criteria="10.Keep papers uniformly" totalMark={10} marksCount={3} marks1Count={7} no={1} setSums={setSums}/>
                      <TotalRow outOf={100} totalMarks={100} ti={1} no={1} sums={sums} theory={30} practical={70}/>
 
-                     <PrintingTableRow outcome="2.Finishing the end product" crieteria="1.Organise the required materials" outof={100} totalMarks={10} rowspan={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
+                     <PrintingTableRow outcome="2.Preparing the product" crieteria="1.Organise the required materials" outof={100} totalMarks={10} rowspan={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
                      <PrintingRow criteria="2.Take front and back sheets covers" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
                     <PrintingRow criteria="3.Put inside the spiral binding machine for punching" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>
                     <PrintingRow criteria="4.Arrange those sheets front and back side of the material" totalMark={10} marksCount={3} marks1Count={7} no={2} setSums={setSums}/>

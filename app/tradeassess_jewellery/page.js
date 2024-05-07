@@ -245,7 +245,7 @@ export default function Home() {
                       <tr>
                         <td />
                         <td>Minimum pass % to qualify
-                          (aggregate)
+                         
                         </td>
                         <td colSpan={4} align="center"> <br /><br />60%<br /><br /><br /></td>
                       </tr>
